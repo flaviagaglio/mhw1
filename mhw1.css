@@ -1,0 +1,167 @@
+body {
+    margin: 100px 125px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  nav{
+
+    text-align: center;
+    font-family: 'Georgia', serif;
+    position: relative;
+    
+}
+
+
+
+
+  .titolo {
+      background-image: url("cin.jpg") ;
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+  }
+  
+ 
+
+  #overlay {
+    content:'';  
+    position: absolute;
+    
+      
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      
+      
+      background-color: rgba(0, 0, 0, .3);
+  }
+  
+  h1 {
+      max-width: 780px;
+      color: rgb(224, 205, 205);
+      font-family: 'Georgia', serif;
+      font-size: 36px;
+      font-weight: normal;
+      z-index: 2;
+  }
+  
+  .propic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -50px;
+  }
+  
+  .propic img {
+      width: 100px;
+      border-radius: 100%;
+      border: 1px solid white;
+      z-index: 2;
+  }
+  
+  .autore {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .autore p {
+      text-align: center;
+      font-family: 'Arial', serif;
+      font-size: 18px;
+      color: rgb(51, 51, 51);
+      line-height: 24px;
+  }
+  
+  #nome {
+      font-weight: bold;
+  }
+  
+  #aggiornamento {
+      font-style: italic;
+      border-bottom: 2px solid #e6e6e6;
+      padding: 10px;
+  }
+  
+  section {
+      display: flex;
+      justify-content: center;
+  }
+  
+  #distacco {
+      height: 60px;
+  }
+  
+  #sinistra {
+      flex-direction: column; 
+      align-items: flex-end;
+      margin-right: 40px;
+      font-family: 'Georgia', serif;
+      font-size: 36px;
+      font-weight: bold;
+      color: rgba(64, 124, 139, 0.349);
+  }
+  
+  #destra {
+      width: 66.67%;
+  }
+  
+  #titolofilm {
+      font-family: 'Georgia', serif;
+      font-size: 36px;
+      font-weight: bold;
+      color: rgb(51, 51, 51);
+  }
+  
+  #datauscita {
+      font-family: 'italic', sans-serif;
+      color: #42b4d6;
+      font-size: 18px;
+  }
+  
+  #contenuto {
+      font-family: 'italic', sans-serif;
+      font-size: 18px;
+      line-height: 32px;
+      color: rgb(51, 51, 51);
+      display: block;
+      margin: 20px 0px;
+  }
+  
+ 
+  
+  .immagine {
+      width: 100%;
+      height: auto;
+      margin-bottom: 120px;
+      background-size: cover;
+      margin-top: 20px;
+  }
+  
+  .lineanera {
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      height: 120px;
+      margin-bottom: 5px;
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }	
+  
+
+  #flex-container{
+      display:flex;
+      flex-direction: column;
+    
+  }
